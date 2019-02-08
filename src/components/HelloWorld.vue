@@ -10,7 +10,7 @@
                   v-model="firstname"
                   :rules="nameRules"
                   :counter="10"
-                  label="First name"
+                  label="First Name"
                   required
                 ></v-text-field>
               </v-flex>
@@ -20,7 +20,7 @@
                   v-model="lastname"
                   :rules="nameRules"
                   :counter="10"
-                  label="Last name"
+                  label="Last Name"
                   required
                 ></v-text-field>
               </v-flex>
@@ -29,7 +29,7 @@
                 <v-text-field
                   v-model="email"
                   :rules="emailRules"
-                  label="E-mail"
+                  label="E-Mail"
                   required
                 ></v-text-field>
               </v-flex>
